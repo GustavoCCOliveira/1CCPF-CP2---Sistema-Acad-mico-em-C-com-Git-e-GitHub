@@ -1,3 +1,4 @@
+
 #include <stdio.h> 
 
 int main() {
@@ -11,7 +12,7 @@ int main() {
 
     media = nota1 + nota2 / 2;
 
-    if (media = 6) {
+    if (media == 6) {
         printf("Aluno aprovado\n");
     } else {
         printf("Aluno reprovado\n");
