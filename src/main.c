@@ -23,6 +23,8 @@ void menu(){
  
         printf("informe a primeira nota do aluno:");
         scanf("%d",&nota1);
+        printf("\ninforme a segunda nota do aluno:");
+        scanf("%d",&nota2);
         break:
 
 
