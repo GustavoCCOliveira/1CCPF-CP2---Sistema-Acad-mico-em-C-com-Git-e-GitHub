@@ -42,6 +42,18 @@ void exibirResultados() {
     printf("Media: %.2f\n", media);
     verificarSituacao();
 }
+// ===== FUNÇÃO PARA CALCULAR DERIVADA =====
+void calcularDerivada() {
+    int a, b, c;
+    printf("\nDigite o valor de a: ");
+    scanf("%d", &a);
+    printf("Digite o valor de b: ");
+    scanf("%d", &b);
+    printf("Digite o valor de c: ");
+    scanf("%d", &c);
+    printf("Derivada da funcao:\n");
+    printf("f'(x) = %dx + %d\n", 2 * a, b);
+}
 
 // ===== FUNÇÃO PARA INSERIR NOTAS =====
 void inserirNotas() {
