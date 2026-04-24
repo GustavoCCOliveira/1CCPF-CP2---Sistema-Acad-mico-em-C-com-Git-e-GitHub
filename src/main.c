@@ -1,6 +1,10 @@
 #include<stdio.h>
 
-int main() {
+int main() {}
+
+void menu(){
+    printf("----------------MENU----------------\n");
+
     
 
     
