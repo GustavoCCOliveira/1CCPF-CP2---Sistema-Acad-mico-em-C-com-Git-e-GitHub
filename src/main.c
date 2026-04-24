@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+
 int main() {}
 
 void menu(){
@@ -14,8 +15,6 @@ void menu(){
     printf("6 - Sair\n");
     printf("Escolha uma opcao: ");
     scanf("%d", &opcao);
-    switch(opcao){
-
 
     
 
