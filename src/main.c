@@ -29,7 +29,19 @@ void verificarSituacao() {
         printf("Situacao: REPROVADO\n");
     }
 }
-
+// ===== FUNÇÃO PARA EXIBIR RESULTADOS =====
+void exibirResultados() {
+    if (notasInseridas == 0 || media < 0) {
+        printf("Dados incompletos! Insira notas e calcule a media.\n");
+        return;
+    }
+    printf("\n========= RESULTADO =========\n");
+    printf("Nota 1: %.2f\n", nota1);
+    printf("Nota 2: %.2f\n", nota2);
+    printf("Nota 3: %.2f\n", nota3);
+    printf("Media: %.2f\n", media);
+    verificarSituacao();
+}
 
 // ===== FUNÇÃO PARA INSERIR NOTAS =====
 void inserirNotas() {
