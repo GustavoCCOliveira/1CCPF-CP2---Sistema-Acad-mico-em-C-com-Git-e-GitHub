@@ -16,6 +16,22 @@ do {
     printf("6 - Sair\n");
     printf("Escolha uma opcao: ");
     scanf("%d", &opcao);
+    
+    switch(opcao){
+
+        case 1:
+
+        float nota1, nota2, nota3, nota4;
+ 
+        printf("informe a primeira nota do aluno:");
+        scanf("%d",&nota1);
+        printf("\ninforme a segunda nota do aluno:");
+        scanf("%d",&nota2);
+        printf("\ninforme a terceira nota do aluno:");
+        scanf("%d",&nota3);
+        printf("\ninforme a quarta nota do aluno:");
+        scanf("%d",&nota4);
+        break:
 
 
     
