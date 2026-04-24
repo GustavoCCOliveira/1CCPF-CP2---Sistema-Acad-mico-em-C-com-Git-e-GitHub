@@ -19,6 +19,8 @@ void menu(){
 
         case 1:
 
+        float nota1, nota2, nota3, nota4;
+ 
         break:
 
 
