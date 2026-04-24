@@ -21,6 +21,8 @@ void menu(){
 
         float nota1, nota2, nota3, nota4;
  
+        printf("informe a primeira nota do aluno:");
+        scanf("%d",&nota1);
         break:
 
 
