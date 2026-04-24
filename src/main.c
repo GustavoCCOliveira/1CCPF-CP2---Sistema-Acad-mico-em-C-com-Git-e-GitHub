@@ -25,6 +25,10 @@ void menu(){
         scanf("%d",&nota1);
         printf("\ninforme a segunda nota do aluno:");
         scanf("%d",&nota2);
+        printf("\ninforme a terceira nota do aluno:");
+        scanf("%d",&nota3);
+        printf("\ninforme a quarta nota do aluno:");
+        scanf("%d",&nota4);
         break:
 
 
