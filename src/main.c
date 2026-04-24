@@ -2,7 +2,9 @@
 
 int main() {}
 
-void menu(){
+int opcao;
+
+do {
     printf("----------------MENU----------------\n");
     printf(" SISTEMA EQUIPE 1CCPF\n");
     printf("==============================\n");
