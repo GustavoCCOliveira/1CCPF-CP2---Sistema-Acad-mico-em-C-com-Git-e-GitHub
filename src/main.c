@@ -5,6 +5,23 @@ float nota1 = 0, nota2 = 0, nota3 = 0;
 float media = -1;
 int notasInseridas = 0;
 
+// ===== FUNÇÃO PARA INSERIR NOTAS =====
+void inserirNotas() {
+    do {
+        printf("Digite a nota 1 (0 a 10): ");
+        scanf("%f", &nota1);
+    } while (nota1 < 0 || nota1 > 10);
+    do {
+        printf("Digite a nota 2 (0 a 10): ");
+        scanf("%f", &nota2);
+    } while (nota2 < 0 || nota2 > 10);
+    do {
+        printf("Digite a nota 3 (0 a 10): ");
+        scanf("%f", &nota3);
+    } while (nota3 < 0 || nota3 > 10);
+    notasInseridas = 1;
+    printf("\nNotas cadastradas com sucesso!\n");
+}
 
 int main() {}
 
