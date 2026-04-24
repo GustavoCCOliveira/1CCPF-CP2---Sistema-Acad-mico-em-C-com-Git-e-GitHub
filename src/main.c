@@ -12,6 +12,8 @@ void menu(){
     printf("4 - Exibir resultado\n");
     printf("5 - Calcular derivada\n");
     printf("6 - Sair\n");
+    printf("Escolha uma opcao: ");
+    scanf("%d", &opcao);
 
 
     
