@@ -15,6 +15,20 @@ float calcularMedia() {
     printf("Media calculada: %.2f\n", media);
     return media;
 }
+// ===== FUNÇÃO PARA VERIFICAR SITUAÇÃO =====
+void verificarSituacao() {
+    if (media < 0) {
+        printf("Calcule a media primeiro!\n");
+        return;
+    }
+    if (media >= 7) {
+        printf("Situacao: APROVADO\n");
+    } else if (media >= 5) {
+        printf("Situacao: RECUPERACAO\n");
+    } else {
+        printf("Situacao: REPROVADO\n");
+    }
+}
 
 
 // ===== FUNÇÃO PARA INSERIR NOTAS =====
