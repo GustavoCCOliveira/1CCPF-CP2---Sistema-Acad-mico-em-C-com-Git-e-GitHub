@@ -5,6 +5,18 @@ float nota1 = 0, nota2 = 0, nota3 = 0;
 float media = -1;
 int notasInseridas = 0;
 
+/ ===== FUNÇÃO PARA CALCULAR MÉDIA =====
+float calcularMedia() {
+    if (notasInseridas == 0) {
+        printf("Primeiro insira as notas!\n");
+        return -1;
+    }
+    media = (nota1 + nota2 + nota3) / 3;
+    printf("Media calculada: %.2f\n", media);
+    return media;
+}
+
+
 // ===== FUNÇÃO PARA INSERIR NOTAS =====
 void inserirNotas() {
     do {
